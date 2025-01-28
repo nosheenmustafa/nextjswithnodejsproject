@@ -13,7 +13,8 @@ export default function Forgetpw(){
          <div className="px-3 py-2 rounded-md mt-2 gap-3 items-center flex border-2 border-gray-100 bg-gray-100"><MdEmail className=""/><TextField  type="email" placeholder="Enter your e-mail" sx={{'& .MuiOutlinedInput-notchedOutline':{border:'none'},
           '& .MuiInputBase-input': { padding: 0 },}}/></div>
           <Button variant="contained"  className="mt-4 w-full bg-green-600">Submit</Button>
-          <p className="mt-2">Didn't get the code <Link  href="/resendcode" className="underline font-bold">Resend</Link></p>
+          <p className="mt-2">Did not get the code <Link href="/resendcode" className="underline font-bold">Resend</Link></p>
+
     </div>
     </div>
   );
